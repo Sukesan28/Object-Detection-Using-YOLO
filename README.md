@@ -53,7 +53,4 @@ YOLOv8-Object-Detection/
 ├── videos/
 │   └── sample_video.mp4          # Example video
 │
-├── screenshots/
-│   └── screenshot.png            # Example annotated frame
-│
 └── README.md
