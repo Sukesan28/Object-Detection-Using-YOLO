@@ -29,10 +29,10 @@ class Yolov8:
 
 
 if __name__ == "__main__":
-    detector = Yolov8("C:\Users\sukes\Desktop\Object-Detection\yolov8n.pt")  
+    detector = Yolov8("yolov8n.pt")  
 
     # Video file path
-    video_path = r"C:\Users\sukes\Desktop\Object-Detection\bangalore-ki-traffic-trafic-bangalore-koramangala-view-1440-publer.io.mp4"
+    video_path = r"bangalore-ki-traffic-trafic-bangalore-koramangala-view-1440-publer.io.mp4"
     cap = cv2.VideoCapture(video_path)
 
     while True:
